@@ -1,11 +1,11 @@
 # Constrained Exploration and Recovery from Experience Shaping
 Constrained Exploration and Recovery from Experience Shaping is an algorithm for model-free reinforcement learning to actively reshape the action space of an agent during training so that reward-driven exploration is constrained within safety limits.
 
-This repository accompanies the following paper on arXiv: [https://arxiv.org/abs/1809.08925]
+This repository accompanies the following paper on arXiv: https://arxiv.org/abs/1809.08925
 
 | Unconstrained Random Exploration            |  Constrained Random Exploration |
 :-------------------------:|:-------------------------:
-!<img src="examples/media/random_exploration/maze_unconstrained.gif" width="400">  |  <img src="examples/media/random_exploration/maze_constrained.gif" width="400">!
+<img src="examples/media/random_exploration/maze_unconstrained.gif" width="400">  |  <img src="examples/media/random_exploration/maze_constrained.gif" width="400">
 
 ## Installing
 
@@ -44,7 +44,7 @@ pip install -e .
 ```
 
 ## Examples
-Examples and reference data are provided in the [examples] directory:
+Examples and reference data are provided in the [examples](examples) directory:
 1. [Learning action space constraints from positive and negative demonstrations](examples/01-constraints-from-demonstrations.md): fixed maze
 2. [Learning action space constraints from scratch](examples/02-constraints-from-scratch.md): random obstacles with position and force control
 
